@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1722318424247
+  login: 1722318245673
+money: '0'
+last-account-name: CQAh
+logoutlocation:
+  world: a788a65a-2914-400f-9a57-86e91052d5e2
+  world-name: world
+  x: 125.5590668097163
+  y: 65.0
+  z: -15.354860680474241
+  yaw: -172.0504150390625
+  pitch: 47.699974060058594

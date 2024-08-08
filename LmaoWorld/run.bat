@@ -1,0 +1,1 @@
+java -Xmx16G -jar paper.jar nogui

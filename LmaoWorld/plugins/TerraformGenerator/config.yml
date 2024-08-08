@@ -1,0 +1,545 @@
+misc:
+  use-slabs-to-smooth-terrain: true
+  trees:
+    only-use-logs-no-wood: false
+    ground-gradient-limit: 1.3
+  custom-small-trees-from-saplings:
+    enabled: true
+    big-jungle-tree: true
+animals:
+  parrot:
+    min-herd-size: 1
+    max-herd-size: 2
+    chance: 2
+  pig:
+    min-herd-size: 3
+    max-herd-size: 4
+    chance: 2
+  cow:
+    max-herd-size: 12
+    chance: 2
+    min-herd-size: 4
+  squid:
+    chance: 2
+    min-herd-size: 1
+    max-herd-size: 4
+  chicken:
+    min-herd-size: 1
+    chance: 2
+    max-herd-size: 3
+  mooshroom:
+    min-herd-size: 2
+    chance: 10
+    max-herd-size: 6
+  panda:
+    max-herd-size: 3
+    chance: 1
+    min-herd-size: 2
+  horse:
+    min-herd-size: 2
+    max-herd-size: 6
+    chance: 1
+  tropical-fish:
+    min-herd-size: 4
+    max-herd-size: 8
+    chance: 2
+  fox:
+    max-herd-size: 2
+    min-herd-size: 1
+    chance: 1
+  sheep:
+    min-herd-size: 2
+    max-herd-size: 8
+    chance: 2
+  wolf:
+    chance: 2
+    min-herd-size: 1
+    max-herd-size: 4
+  cod:
+    max-herd-size: 6
+    chance: 2
+    min-herd-size: 3
+  goat:
+    min-herd-size: 3
+    max-herd-size: 4
+    chance: 1
+  turtle:
+    min-herd-size: 2
+    max-herd-size: 5
+    chance: 1
+  salmon:
+    max-herd-size: 4
+    chance: 2
+    min-herd-size: 4
+  armadillo:
+    max-herd-size: 3
+    min-herd-size: 1
+    chance: 2
+  donkey:
+    max-herd-size: 6
+    min-herd-size: 2
+    chance: 1
+  polarbear:
+    max-herd-size: 3
+    min-herd-size: 2
+    chance: 1
+  bee:
+    hive-frequency: 0.02
+  dolphin:
+    chance: 1
+    max-herd-size: 3
+    min-herd-size: 1
+  rabbit:
+    chance: 1
+    min-herd-size: 2
+    max-herd-size: 3
+  ocelot:
+    chance: 1
+    min-herd-size: 1
+    max-herd-size: 3
+  llama:
+    chance: 2
+    max-herd-size: 6
+    min-herd-size: 4
+  pufferfish:
+    min-herd-size: 1
+    max-herd-size: 3
+    chance: 1
+structures:
+  catacombs:
+    sizerollchance: 0.4
+    max-levels: 5
+    max-y: 30
+    enabled: true
+    min-y: 0
+    spawnratio: 0.6
+  swamphut:
+    spawnratio: 0.4
+    count-per-megachunk: 1
+    enabled: true
+  villagehouse:
+    spawnratio: 0.8
+  stronghold:
+    max-y: 25
+    enabled: true
+    failsafe-y: -16
+    min-y: 0
+  trailruins:
+    enabled: true
+    spawnratio: 0.5
+  drowned-dungeon:
+    chance-out-of-1000: 200
+    enabled: true
+    min-chunk-y: 52
+  warmoceanruins:
+    enabled: true
+    spawnratio: 1.0
+  shipwreck:
+    spawnratio: 0.6
+    enabled: true
+    count-per-megachunk: 2
+  largecave:
+    enabled: true
+    spawnratio: 0.8
+  trialchamber:
+    spawnratio: 0.3
+    enabled: true
+  buriedtreasure:
+    count-per-megachunk: 2
+    enabled: true
+    spawnratio: 0.3
+  small-dungeon:
+    count-per-megachunk: 3
+    spawnratio: 0.4
+  mansion:
+    chunk-exclusion-zone: 4
+    spawnratio: 0.3
+    min-distance-blocks: 5000
+    size: 80
+    pillager-spawn-aggression: 1
+    enabled: true
+  badlands-mine:
+    depth: 25
+    distance-between-mines: 8
+    enabled: true
+  desertwell:
+    enabled: true
+    count-per-megachunk: 2
+    spawnratio: 0.3
+  pyramid:
+    spawn-ratio: 0.3
+    spawn-elder-guardian: true
+    enabled: true
+    suspicious-sand-per-antechamber: 4
+  plainsvillage:
+    height-tolerance: 10
+    enabled: true
+  igloo:
+    enabled: true
+    count-per-megachunk: 1
+    spawnratio: 0.8
+  ruinedportal:
+    enabled: true
+    count-per-megachunk: 1
+    spawnratio: 0.4
+  village:
+    spawnratio: 1.0
+    chunk-exclusion-zone: 4
+  animalfarm:
+    enabled: true
+  underground-dungeon:
+    enabled: true
+  technical:
+    megachunk:
+      numbiomesections: 4
+      max-structures-per-megachunk: 3
+  ancientcity:
+    max-y: -10
+    enabled: true
+    min-y: -20
+    spawnratio: 0.5
+  mountainhouse:
+    enabled: true
+  mineshaft:
+    max-y: 30
+    min-y: -10
+    enabled: true
+    spawnratio: 0.8
+  monument:
+    enabled: true
+    spawn-ratio: 0.3
+  outpost:
+    enabled: true
+    spawnratio: 0.8
+  farmhouse:
+    enabled: true
+climate:
+  snowy:
+    minimum-moisture: -4.0
+    maximum-temperature: -2.7
+    minimum-temperature: -4.0
+    maximum-moisture: 4.0
+  hot-barren:
+    maximum-temperature: 4.0
+    maximum-moisture: -1.0
+    minimum-moisture: -4.0
+    minimum-temperature: 1.0
+  dry-vegetation:
+    minimum-moisture: -4.0
+    maximum-moisture: 0.0
+    maximum-temperature: 4.0
+    minimum-temperature: -0.35
+  humid-vegetation:
+    maximum-moisture: 4.0
+    maximum-temperature: 4.0
+    minimum-moisture: 0.0
+    minimum-temperature: -0.35
+  cold:
+    maximum-moisture: 4.0
+    minimum-temperature: -4.0
+    maximum-temperature: -0.5
+    minimum-moisture: -4.0
+biome:
+  elevatedplains:
+    weight: 8
+  humidocean:
+    weight: 6
+  cave:
+    lush-cluster:
+      separation: 64
+      maxsize: 15
+      separation-maxpertub: 0.35
+      minsize: 10
+    crystalline-cluster:
+      minsize: 7
+      separation: 86
+      maxsize: 11
+      separation-maxpertub: 0.37
+    dripstone-cluster:
+      separation: 64
+      separation-maxpertub: 0.35
+      minsize: 5
+      maxsize: 11
+  desertmountains:
+    place-yellow-concrete: true
+    weight: 0
+    place-yellow-concrete-powder: true
+  single:
+    highmountain: disabled
+    ocean: disabled
+    land: disabled
+    mountain: disabled
+    deepocean: disabled
+  jungle:
+    statue-chance-out-of-1000: 4
+    weight: 5
+  snowywasteland:
+    weight: 4
+  defaults:
+    oceanic: OCEAN
+    river: RIVER
+    deepoceanic: DEEP_OCEAN
+    highmountainous: JAGGED_PEAKS
+    flat: PLAINS
+    mountainous: ROCKY_MOUNTAINS
+    beach: SANDY_BEACH
+  highmountains-threshold: 27.5
+  deepocean:
+    weight: 7
+  moisture-frequency: 0.03
+  muddybog:
+    weight: 2
+  snowymountains:
+    weight: 1
+  savanna:
+    weight: 6
+  temperature-frequency: 0.03
+  badlands:
+    plateaus:
+      height: 15
+      threshold: 0.23
+      commonness: 0.18
+      frequency: 0.01
+      sand-radius: 7
+    weight: 1
+  oceanic-frequency: 0.11
+  frozenocean:
+    weight: 6
+  deepcoldocean:
+    weight: 7
+  birchmountains:
+    weight: 1
+  deephumidocean:
+    weight: 7
+  darkforest:
+    weight: 5
+    spawn-heads: true
+  warmocean:
+    weight: 6
+  petrifiedcliffs:
+    weight: 6
+  deepdryocean:
+    weight: 7
+  forest:
+    weight: 8
+  deep-oceanic-threshold: 27.0
+  shatteredsavanna:
+    weight: 4
+  erodedplains:
+    weight: 6
+  cherrygrove:
+    weight: 3
+  jaggedpeaks:
+    weight: 1
+  taiga:
+    weight: 6
+  mountainous-threshold: 18.5
+  blackocean:
+    weight: 1
+  scarletforest:
+    weight: 3
+  oceanic-threshold: 22.0
+  deepfrozenocean:
+    weight: 7
+  desert:
+    weight: 6
+  dithering: 0.04
+  oasis:
+    commonness: 1.0
+    frequency: 0.012
+  bambooforest:
+    weight: 2
+  archedcliffs:
+    weight: 6
+  rockymountains:
+    weight: 1
+  snowytaiga:
+    weight: 6
+  coldocean:
+    weight: 6
+  mangrove:
+    weight: 5
+  mountainous-frequency: 0.3
+  swamp:
+    weight: 5
+  gorge:
+    weight: 6
+  biomesection-bitshifts: 7
+  clay-deposit-radius: 3.0
+  badlandsmountains:
+    weight: 1
+  paintedhills:
+    weight: 1
+  deepblackocean:
+    weight: 0
+  plains:
+    weight: 10
+  mushroomisland:
+    weight: 1
+  icespikes:
+    weight: 2
+  ocean:
+    weight: 6
+  dryocean:
+    weight: 6
+  clay-deposit-chance-out-of-thousand: 3
+  deeplukewarmocean:
+    weight: 7
+  deepwarmocean:
+    weight: 7
+  coralreefocean:
+    weight: 5
+  forestedmountains:
+    weight: 1
+dev-stuff:
+  suppress-watchdog: true
+  patcher-cache-max-size: 100
+  attempt-fixing-premature-generations: true
+  suppress-terraform-console-logs: true
+  vanilla-structure-locate-timeoutmillis: 5000
+  force-only-vanilla-mushrooms: false
+  extended-commands: false
+  biomecache-size: 3000
+  vanilla-disable-locate: false
+  debug-mode: false
+  chunk-cache-size: 6000
+ore:
+  diamond:
+    min-spawn-height: -64
+    common-spawn-height: -64
+    max-vein-count: 16
+    chance-per-chunk: 30
+    max-spawn-height: 16
+    max-vein-size: 7
+  tuff:
+    max-vein-count: 50
+    max-vein-size: 30
+    max-spawn-height: 10
+    common-spawn-height: -64
+    chance-per-chunk: 40
+    min-spawn-height: -63
+  gravel:
+    max-vein-count: 100
+    chance-per-chunk: 75
+    max-spawn-height: 300
+    common-spawn-height: 255
+    max-vein-size: 45
+    min-spawn-height: -64
+  andesite:
+    max-vein-size: 45
+    max-spawn-height: 300
+    common-spawn-height: 255
+    max-vein-count: 110
+    min-spawn-height: -64
+    chance-per-chunk: 80
+  granite:
+    common-spawn-height: 255
+    chance-per-chunk: 80
+    min-spawn-height: -64
+    max-vein-size: 45
+    max-vein-count: 110
+    max-spawn-height: 300
+  emerald:
+    max-spawn-height: 256
+    chance-per-chunk: 30
+    common-spawn-height: 12
+    max-vein-count: 3
+    max-vein-size: 7
+    min-spawn-height: -16
+  copper:
+    max-vein-size: 10
+    common-spawn-height: 48
+    max-spawn-height: 104
+    min-spawn-height: -16
+    max-vein-count: 45
+    chance-per-chunk: 40
+  coal:
+    max-vein-count: 115
+    common-spawn-height: 96
+    max-spawn-height: 256
+    min-spawn-height: 5
+    chance-per-chunk: 50
+    max-vein-size: 25
+  lapis:
+    chance-per-chunk: 30
+    max-vein-count: 40
+    max-vein-size: 6
+    min-spawn-height: -64
+    max-spawn-height: 64
+    common-spawn-height: 0
+  diorite:
+    max-vein-count: 110
+    chance-per-chunk: 80
+    common-spawn-height: 255
+    min-spawn-height: -64
+    max-spawn-height: 300
+    max-vein-size: 45
+  redstone:
+    common-spawn-height: -32
+    min-spawn-height: -64
+    max-vein-count: 15
+    max-vein-size: 10
+    max-spawn-height: 16
+    chance-per-chunk: 40
+  iron:
+    max-vein-count: 73
+    min-spawn-height: -64
+    common-spawn-height: 16
+    max-spawn-height: 256
+    max-vein-size: 10
+    chance-per-chunk: 50
+  deepslate:
+    min-spawn-height: 0
+    max-vein-count: 50
+    max-spawn-height: 15
+    max-vein-size: 45
+    common-spawn-height: 5
+    chance-per-chunk: 80
+  gold:
+    chance-per-chunk: 40
+    max-spawn-height: 32
+    common-spawn-height: -16
+    max-vein-size: 10
+    max-vein-count: 15
+    min-spawn-height: -64
+  badlandsgold:
+    max-vein-count: 15
+    max-vein-size: 10
+    min-spawn-height: -64
+    common-spawn-height: 32
+    chance-per-chunk: 40
+    max-spawn-height: 256
+  amethyst:
+    geode-size: 7
+    min-depth: 70
+    min-depth-below-surface: 15
+    chance-per-chunk: 0.05
+trees:
+  big-birch-trees:
+    enabled: true
+  big-taiga-trees:
+    enabled: true
+  big-jungle-trees:
+    enabled: true
+  big-scarlet-trees:
+    enabled: true
+  big-snowy-taiga-trees:
+    enabled: true
+  big-forest-trees:
+    enabled: true
+  big-savanna-trees:
+    enabled: true
+  big-dark-forest-trees:
+    enabled: true
+caves:
+  allow-flooded-caves: false
+heightmap:
+  river-frequency: 0.005
+  land-height-amplifier: 1.0
+  sea-level: 62
+  bedrock-height: 5
+  spawn-flat-radius: -1
+  core-frequency: 0.003
+  bedrock-density: 70
+lang: eng.yml
+config-version: 3

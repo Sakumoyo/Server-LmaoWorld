@@ -1,0 +1,199 @@
+[18:06:18] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.3+9-LTS; Microsoft Microsoft-9388422) on Linux 6.5.0-1022-azure (amd64)
+[18:06:18] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-111-master@66165f7 (2024-07-27T14:44:39Z) for Minecraft 1.21
+[18:06:18] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:06:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[18:06:20] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - EconomyShopGUI (6.7.8)
+[18:06:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
+ - AuraSkills (2.1.5), Essentials (2.20.1), EssentialsChat (2.20.1), EssentialsSpawn (2.20.1), GSit (1.9.5), LuckPerms (5.4.137), TAB (4.1.6), TerraformGenerator (16.1.2), Vault (1.7.3-b131), VeinMiner (2.2.4), playit-gg (0.1.4)
+[18:06:25] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:06:28] [ServerMain/INFO]: Loaded 1290 recipes
+[18:06:28] [ServerMain/INFO]: Loaded 1399 advancements
+[18:06:28] [Server thread/INFO]: Starting minecraft server version 1.21
+[18:06:28] [Server thread/INFO]: Loading properties
+[18:06:29] [Server thread/INFO]: This server is running Paper version 1.21-111-master@66165f7 (2024-07-27T14:44:39Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[18:06:29] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:06:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:06:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:06:31] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[18:06:31] [Server thread/INFO]: Default game type: SURVIVAL
+[18:06:31] [Server thread/INFO]: Generating keypair
+[18:06:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:06:31] [Server thread/INFO]: Using epoll channel type
+[18:06:31] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:06:31] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:06:33] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.137
+[18:06:33] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[18:06:33] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[18:06:33] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[18:06:33] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.9.5
+[18:06:33] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.6
+[18:06:33] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v16.1.2
+[18:06:33] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[18:06:33] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.1.5
+[18:06:33] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.2.4
+[18:06:34] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.7.8
+[18:06:34] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[18:06:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:06:34] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.137
+[18:06:34] [Server thread/INFO]:         __    
+[18:06:34] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.137
+[18:06:34] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:06:34] [Server thread/INFO]: 
+[18:06:34] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:06:35] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:06:36] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:06:36] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:06:36] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2331ms)
+[18:06:36] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:06:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:06:37] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:06:37] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:06:37] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:06:37] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v16.1.2
+[18:06:38] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[18:06:38] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[18:06:38] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
+[18:06:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:06:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:06:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:06:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:06:40] [Server thread/INFO]: Preparing level "world"
+[18:06:40] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[18:06:40] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[18:06:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:06:43] [Server thread/INFO]: Time elapsed: 2300 ms
+[18:06:43] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[18:06:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:06:43] [Server thread/INFO]: Time elapsed: 596 ms
+[18:06:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:06:44] [Server thread/INFO]: Time elapsed: 291 ms
+[18:06:44] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[18:06:44] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[18:06:46] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:06:46] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:06:46] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[18:06:46] [Server thread/INFO]: [Essentials] Using locale en
+[18:06:47] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:06:47] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:06:47] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:06:47] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:06:47] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[18:06:47] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[18:06:47] [Server thread/INFO]: [GSit] Enabling GSit v1.9.5
+[18:06:47] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[18:06:47] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
+[18:06:48] [Server thread/INFO]: [TAB] Loaded NMS hook in 482ms
+[18:06:50] [Server thread/INFO]: [TAB] Enabled in 1502ms
+[18:06:50] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[18:06:50] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[18:06:50] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.1.5
+[18:06:52] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[18:06:53] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[18:06:53] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
+[18:06:53] [Server thread/INFO]: [AuraSkills] Loaded 126 config options in 144 ms
+[18:06:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21! Trying to find NMS support
+[18:06:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[18:06:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[18:06:53] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[18:06:54] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[18:06:55] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.2.4
+[18:06:55] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[18:06:55] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
+[18:06:55] [Thread-11/INFO]: [VeinMiner] Using SQLITE for persistent storage.
+[18:06:55] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[18:06:55] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[18:06:55] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
+[18:06:55] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[18:06:55] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[18:06:55] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[18:06:55] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[18:06:55] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[18:06:55] [Server thread/INFO]: [VeinMiner] Registering commands
+[18:06:55] [Server thread/INFO]: [VeinMiner] Registering events
+[18:06:55] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
+[18:06:55] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[18:06:55] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[18:06:55] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.7.8
+[18:06:55] [Thread-12/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Sử dụng lang-vi.yml làm tệp ngôn ngữ.
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Đã hoàn tất tải cấu hình mục 16 từ /sections/
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Đã hoàn tất tải 16 cấu hình cửa hàng từ /shops/
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Đang cập nhật cài đặt Cửa hàng...
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Đã hoàn tất tải các plugin cung cấp tiền tệ 1 cho tất cả các mục cửa hàng 14.
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Sử dụng phiên bản minecraft 1.21...
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Nhà cung cấp Spawner được đặt thành AUTO trong cấu hình
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Chế độ gỡ lỗi được bật.
+[18:06:56] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Đang tải tất cả các mục...
+[18:06:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Đã khởi tạo - mất 1269ms để hoàn thành
+[18:06:57] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Có một bản cập nhật cho EconomyShopGUI, bạn đang chạy v6.7.8 nhung tìm thấy v6.7.9.
+[18:06:57] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[18:06:57] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[18:06:58] [Thread-16/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[18:06:58] [Thread-16/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[18:06:59] [Server thread/INFO]: [spark] Starting background profiler...
+[18:06:59] [Server thread/INFO]: Done preparing level "world" (19.591s)
+[18:06:59] [Server thread/INFO]: Running delayed init tasks
+[18:06:59] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:06:59] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:06:59] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:07:00] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
+[18:07:00] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
+[18:07:00] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[18:07:00] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[18:07:00] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[18:07:01] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:07:01] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[18:07:01] [Server thread/INFO]: Done (44.133s)! For help, type "help"
+[18:07:01] [Server thread/INFO]: Timings Reset
+[18:07:11] [Thread-16/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: educational-cases.joinmc.link
+[18:07:11] [Thread-16/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[18:07:11] [Thread-16/INFO]: playit.gg: tunnel setup
+[18:07:11] [Thread-16/INFO]: playit.gg: educational-cases.joinmc.link
+[18:07:11] [Thread-16/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[18:07:12] [Thread-16/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[18:07:13] [Thread-16/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[18:07:15] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /online 
+[18:07:15] [Server thread/INFO]: There are 0 out of maximum 100 players online.
+[18:07:21] [Thread-16/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:18581, peerAddr=183.80.214.224:46011, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 72, -107, -73, 80, -42, -32, -77, -69, -63, 126, 114, -109, -85, 8, 102, -75, 9, 89, 0, 0, 0, 0, 0, 5, 112, -54, 0, 0, 0, 0, 0, 53, 35, -100, -56, -109, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, -105, 28, 75, -20, 22, -96, -118, -17, 100, 6, -93, 24, 33, 42, 105, -48], tunnelServerId=3, dataCenterId=18}
+[18:07:21] [Thread-16/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:07:21] [Thread-16/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[18:07:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:07:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:07:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:07:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:07:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:07:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:07:22] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:07:59] [Thread-16/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:18581, peerAddr=183.80.214.224:20794, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 72, -107, -73, 80, -42, -32, 81, 58, 69, -51, 64, -22, -85, 8, 102, -75, 9, 127, 0, 0, 0, 0, 0, 5, 112, -54, 0, 0, 0, 0, 0, 53, 35, -100, 125, -22, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, 121, -106, -20, 44, -14, 103, 86, 116, -117, 68, 9, -34, 51, 71, 48, 16], tunnelServerId=4, dataCenterId=18}
+[18:07:59] [Thread-16/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:07:59] [Thread-16/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[18:07:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:07:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:07:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:07:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:07:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:07:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:07:59] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:07:59] [User Authenticator #0/INFO]: UUID of player duonggya1 is 1b94f57e-e67d-368c-bbae-3cdb97b0e4df
+[18:08:01] [Server thread/INFO]: duonggya1 joined the game
+[18:08:02] [Server thread/INFO]: duonggya1[/127.0.0.1:40434] logged in with entity id 23 at ([world]-265.26996825923516, 68.0, -461.2081410245546)
+[18:08:19] [Thread-16/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:18581, peerAddr=125.235.127.51:62775, claimAddress=209.25.142.2:42760, claimToken=[44, 0, 60, -47, 25, -114, -62, 72, -107, 125, -21, 127, 51, -11, 55, 66, 48, 106, -43, -89, 8, 102, -75, 9, -109, 0, 0, 0, 0, 0, 5, 112, -54, 0, 0, 0, 0, 0, 53, 35, -100, -37, -43, -89, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, -43, 47, -101, 103, -65, 40, 40, -79, 56, 16, -110, 118, 18, 38, 6, 9], tunnelServerId=3, dataCenterId=18}
+[18:08:19] [Thread-16/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:08:19] [Thread-16/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:42760 to claim client
+[18:08:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:08:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:08:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:08:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:08:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:08:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:08:19] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:08:19] [User Authenticator #0/INFO]: UUID of player nhwnzzn is 0b6543aa-b3ea-3e23-9839-3e1616648349
+[18:08:19] [Server thread/INFO]: nhwnzzn joined the game
+[18:08:19] [Server thread/INFO]: nhwnzzn[/127.0.0.1:58318] logged in with entity id 336 at ([world]-194.55308533079992, 70.0, -751.4908845182989)
+[18:08:26] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[18:11:01] [Server thread/INFO]: nhwnzzn has made the advancement [Light as a Rabbit]
+[18:11:16] [Thread-16/INFO]: [gg.playit.control.ChannelSetup] send keep alive

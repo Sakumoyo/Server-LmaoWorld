@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1723138789835
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1723140137245
+  login: 1723138434040
+money: '9999999850000.0'
+lastlocation:
+  world: be979d97-bdf1-4f84-ba6f-5823de232311
+  world-name: world
+  x: -9713.650382025633
+  y: 67.0
+  z: -9968.25655691085
+  yaw: -127.36140441894531
+  pitch: 28.800090789794922
+last-account-name: Sakumoyo
+logoutlocation:
+  world: be979d97-bdf1-4f84-ba6f-5823de232311
+  world-name: world
+  x: -1.0859262767724864
+  y: 56.0
+  z: 0.48592627677248673
+  yaw: -123.00003051757812
+  pitch: 53.4000129699707
